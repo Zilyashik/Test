@@ -1,0 +1,66 @@
+.form__wrapper{
+    width: 100%;
+    background-color: white;
+}
+.form__container{
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    padding-bottom: 50px;
+}
+.form__title{
+    font-size: 85px;
+    letter-spacing: -3px;
+    margin-bottom: 40px;
+}
+.form__text{
+    font-size: 18px;
+    width: 460px;
+}
+.form__control{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.form__input{
+    color: rgba(0, 0, 0, 0.6);
+    width: 405px;
+    height: 60px;
+    font-size: 16px;
+    margin: 30px 15px 15px 0;
+    border-radius: 15px;
+}
+input{
+    border-color: rgba(0, 0, 0, 0.4);
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+input:focus{
+    font-size: 16px;
+    color: black;
+}
+.form__submit{
+    padding-left: 0;
+    font-size: 18px;
+    width: 181px;
+    height: 60px;
+    border-radius: 15px;
+    margin: 30px 15px 15px 0;
+    border-color: rgba(0, 0, 0, 0.4);
+    background-color: white;
+    box-shadow: none;
+}
+.form__submit:hover{
+    border-color: #75FF72;
+    background-color: #75FF72;
+    box-shadow: none;
+}
+#email__error{
+    color: red;
+    font-size: 14px;
+    display: none;
+}

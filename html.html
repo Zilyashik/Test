@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="slider.css">
     <link rel="stylesheet" href="faq.css">
     <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="form.css">
     <link
             rel="stylesheet"
             href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
@@ -15,7 +16,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <!--HEADER НАЧАЛО-->
+        <!--HEADER-------BEGINNING-->
         <header class="header">
             <div class="header_container">
                     <a href="#" class="header__logo"><img src="images/logo.svg" alt=""></a>
@@ -77,9 +78,9 @@
                     </div>
             </div>
         </header>
-        <!--HEADER КОНЕЦ-->
-
-        <!--SLIDER НАЧАЛО-->
+        <!--HEADER-------ENDING-->
+<!----------------------------------------------------------->
+        <!--SLIDER-------BEGINNING-->
         <div class="image-slider swiper">
             <div class="image-slider__wrapper swiper-wrapper">
 <!--                <div class="image-slider__slide">-->
@@ -98,17 +99,15 @@
 <!--                </div>-->
             </div>
         </div>
-
-        <!--СТРЕЛКИ НАЧАЛО-->
+        <!--ARROWS-------BEGINNING-->
         <div class="swiper-arrows">
             <div class="swiper-buttonP">&larr;</div>
             <div class="swiper-buttonN">&rarr;</div>
         </div>
-        <!--СТРЕЛКИ КОНЕЦ-->
-
-        <!--SLIDER КОНЕЦ-->
-
-        <!--ФАК НАЧАЛО-->
+        <!--ARROWS-------КОНЕЦ-->
+        <!--SLIDER-------ENDING-->
+<!------------------------------------------------------------------>
+        <!--FAQ-------BEGINNING-->
         <div class="faq__wrapper">
             <div class="faq__container">
                 <div class="faq__spoiler">FAQ</div>
@@ -140,8 +139,9 @@
                 </div>
         </div>
         </div>
-        <!--ФАК КОНЕЦ-->
-
+        <!--FAQ-------ENDING-->
+<!---------------------------------------------------------------->
+        <!--NEWS-------BEGINNING-->
         <div class="mews__wrapper">
             <div class="news__container">
                 <div class="news__title">Новости</div>
@@ -157,7 +157,6 @@
                             </div>
                         </a>
                     </div>
-
                     <div class="news__sub-block">
                         <a href="#" class="news__sub-block link">
                             <img class="news__image" src="/images/n2.png" alt="Картинка">
@@ -169,7 +168,6 @@
                             </div>
                         </a>
                     </div>
-
                     <div class="news__sub-block">
                         <a href="#" class="news__sub-block link">
                             <img class="news__image" src="/images/n3.png" alt="Картинка">
@@ -181,7 +179,6 @@
                             </div>
                         </a>
                     </div>
-
                     <div class="news__sub-block">
                         <a href="#" class="news__sub-block link">
                             <img class="news__image" src="/images/n4.png" alt="Картинка">
@@ -193,7 +190,6 @@
                             </div>
                         </a>
                     </div>
-
                     <div class="news__sub-block">
                         <a href="#" class="news__sub-block link">
                             <img class="news__image" src="/images/n5.png" alt="Картинка">
@@ -205,7 +201,6 @@
                             </div>
                         </a>
                      </div>
-
                     <div class="news__sub-block">
                         <a href="#" class="news__sub-block link">
                             <img class="news__image" src="/images/n6.png" alt="Картинка">
@@ -220,6 +215,29 @@
                 </div>
             </div>
         </div>
+        <!--NEWS-------ENDING-->
+<!---------------------------------------------------------------->
+        <!--FORM-------BEGINNING-->
+        <div class="form__wrapper">
+            <div class="form__container">
+                <h3 class="form__title">Подпишись</h3>
+                <div class="form__text">Отправляем анонсы новых статей, выпусков и трансляций</div>
+                <div class="form__control">
+                    <form action="#" method="POST">
+                        <div class="form__input-type">
+                            <input type="text" class="form__input email" name="email" placeholder="Email">
+                            <div id="email__error">Некоректный email</div>
+                            <input type="date" class="form__input date" name="date" placeholder="11.02.2022">
+                            <input type="tel" class="form__input telephone" name="telephone" placeholder="Телефон">
+                            <input type="time" class="form__input time"  min="00:00" max="23:59" placeholder="15:00">
+                        </div>
+                        <input type="submit" class="form__submit" value="Подписаться">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--FORM-------ENDING-->
+<!-------------------------------------------------------------->
     </div>
     <script src="mainMenu.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
