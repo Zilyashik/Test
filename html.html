@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Тестовое задание</title>
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="faq.css">
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <div class="wrapper">
+        <!--HEADER НАЧАЛО-->
         <header class="header">
             <div class="header_container">
                     <a href="#" class="header__logo"><img src="images/logo.svg" alt=""></a>
@@ -69,7 +76,75 @@
                     </div>
             </div>
         </header>
+        <!--HEADER КОНЕЦ-->
+
+        <!--SLIDER НАЧАЛО-->
+
+        <div class="image-slider swiper">
+            <div class="image-slider__wrapper swiper-wrapper">
+<!--                <div class="image-slider__slide">-->
+                    <div class="image-slider__image swiper-slide">
+                        <img src="images/img2.png" alt="Картинка">
+                        <h3 class="slider__text">Слайд 1</h3>
+                    </div>
+                    <div class="image-slider__image swiper-slide">
+                        <img src="images/img2.png" alt="Картинка">
+                        <h3 class="slider__text">Слайд 2</h3>
+                    </div>
+                    <div class="image-slider__image swiper-slide">
+                        <img src="images/img2.png" alt="Картинка">
+                        <h3 class="slider__text">Слайд 3</h3>
+                    </div>
+<!--                </div>-->
+            </div>
+        </div>
+        <!--СТРЕЛКИ НАЧАЛО-->
+        <div class="swiper-arrows">
+            <div class="swiper-buttonP">&larr;</div>
+            <div class="swiper-buttonN">&rarr;</div>
+        </div>
+        <!--СТРЕЛКИ КОНЕЦ-->
+        <!--SLIDER КОНЕЦ-->
+        <!--ФАК НАЧАЛО-->
+        <div class="faq">
+            <div class="faq__container">
+                <div class="faq__spoiler">FAQ</div>
+                <div class="block">
+                    <div class="block__item">
+                        <div class="block__title">Как добраться до музея?</div>
+                        <div class="block__text">
+                            В Национальный музей Республики Татарстан можно добраться общественным транспортом:
+                            <br>
+                            1) «Станция метро «Кремлевская», а затем по направлению к Кремлю пройдя 5 минут пешком;
+                        </div>
+                    </div>
+                    <div class="block__item">
+                        <div class="block__title">Есть ли поблизости удобная парковка?</div>
+                        <div class="block__text">
+                            В Национальный музей Республики Татарстан можно добраться общественным транспортом:
+                            <br>
+                            1) «Станция метро «Кремлевская», а затем по направлению к Кремлю пройдя 5 минут пешком;
+                        </div>
+                    </div>
+                    <div class="block__item">
+                        <div class="block__title">Можно ли воспользоваться аудиогидом?</div>
+                        <div class="block__text">
+                            В Национальный музей Республики Татарстан можно добраться общественным транспортом:
+                            <br>
+                            1) «Станция метро «Кремлевская», а затем по направлению к Кремлю пройдя 5 минут пешком;
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </div>
+        <!--ФАК КОНЕЦ-->
     </div>
     <script src="mainMenu.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="slider.js"></script>
+    <script src="faq.js"></script>
+
+
 </body>
 </html>

@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ff72bfd-6373-4d69-8bb9-0119d53630b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/faq.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html.html" beforeDir="false" afterPath="$PROJECT_DIR$/html.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/mainMenu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -42,6 +56,9 @@
       <workItem from="1648754187656" duration="6000" />
       <workItem from="1648754256717" duration="4177000" />
       <workItem from="1648799829377" duration="10890000" />
+      <workItem from="1648824370168" duration="5011000" />
+      <workItem from="1648910602300" duration="836000" />
+      <workItem from="1648911754471" duration="28849000" />
     </task>
     <servers />
   </component>
