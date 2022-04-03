@@ -27,7 +27,7 @@
 }
 .form__input{
     color: rgba(0, 0, 0, 0.6);
-    width: 405px;
+    width: 425px;
     height: 60px;
     font-size: 16px;
     margin: 30px 15px 15px 0;
@@ -46,7 +46,7 @@ input:focus{
 .form__submit{
     padding-left: 0;
     font-size: 18px;
-    width: 181px;
+    width: 201px;
     height: 60px;
     border-radius: 15px;
     margin: 30px 15px 15px 0;
