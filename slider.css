@@ -1,13 +1,13 @@
 .image-slider{
     padding: 50px 0 70px 0;
-    border: 3px solid white;
+    /*border: 3px solid white;*/
 }
 .image-slider__wrapper{
     max-width: 100%;
-    border: 3px solid green;
+    /*border: 3px solid green;*/
 }
 .image-slider__image{
-    border: 3px solid blue;
+    /*border: 3px solid blue;*/
 }
 .swiper-slide{
     text-align: center;
@@ -16,7 +16,7 @@
 .image-slider__image img{
     width: 100%;
     border-radius: 10px;
-    border: 3px solid yellow;
+    /*border: 3px solid yellow;*/
 }
 .slider__text{
     position: absolute;
@@ -24,7 +24,7 @@
     left: 5%;
     font-size: 70px;
     color: white;
-    border: 3px solid slateblue;
+    /*border: 3px solid slateblue;*/
 }
 .swiper-arrows{
     cursor: pointer;
@@ -35,7 +35,7 @@
     justify-content: center;
     color: white;
     font-size: 70px;
-    border: 3px solid palevioletred;
+    /*border: 3px solid palevioletred;*/
 }
 .swiper-buttonN,
 .swiper-buttonP{
@@ -44,7 +44,7 @@
 .swiper-buttonN:hover,
 .swiper-buttonP:hover{
     color: #75FF72;
-    border: 3px solid gray;
+    /*border: 3px solid gray;*/
 }
 
 

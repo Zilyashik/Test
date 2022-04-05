@@ -1,7 +1,7 @@
 .faq__wrapper{
     padding-top: 80px;
     color: white;
-    border: 3px solid white;
+    /*border: 3px solid white;*/
 }
 .faq__container{
     padding-top: 80px;
@@ -10,18 +10,18 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border: 3px solid red;
+    /*border: 3px solid red;*/
 }
 .faq__spoiler{
     font-size: 80px;
     letter-spacing: -3px;
-    border: 3px solid green;
+    /*border: 3px solid green;*/
 }
 .block{
     display: flex;
     flex-direction: column;
     margin-left: 100px;
-    border: 3px solid yellow;
+    /*border: 3px solid yellow;*/
 }
 .block__item{
     width: 950px;
@@ -35,13 +35,13 @@
     font-size: 24px;
     margin: 40px 0;
     cursor: pointer;
-    border: 3px solid salmon;
+    /*border: 3px solid salmon;*/
 }
 .block__text{
     display: none;
     font-size: 16px;
     padding: 0 0 30px 0;
-    border: 3px solid slateblue;
+    /*border: 3px solid slateblue;*/
 }
 
 @media (max-width: 1200px) {

@@ -70,7 +70,7 @@ input:focus{
     color: red;
     font-size: 14px;
     width: 25%;
-    /*display: none;*/
+    display: none;
     border: 3px solid black;
 }
 
