@@ -1,6 +1,7 @@
 .form__wrapper{
     width: 100%;
     background-color: white;
+    border: 3px solid white;
 }
 .form__container{
     max-width: 1240px;
@@ -10,20 +11,24 @@
     align-items: flex-start;
     background-color: white;
     padding-bottom: 50px;
+    border: 3px solid green;
 }
 .form__title{
     font-size: 85px;
     letter-spacing: -3px;
     margin-bottom: 40px;
+    border: 3px solid salmon;
 }
 .form__text{
     font-size: 18px;
     width: 460px;
+    border: 3px solid slateblue;
 }
 .form__control{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    border: 3px solid saddlebrown;
 }
 .form__input{
     color: rgba(0, 0, 0, 0.6);
@@ -32,6 +37,7 @@
     font-size: 16px;
     margin: 30px 15px 15px 0;
     border-radius: 15px;
+    border: 3px solid yellow;
 }
 input{
     border-color: rgba(0, 0, 0, 0.4);
@@ -58,9 +64,25 @@ input:focus{
     border-color: #75FF72;
     background-color: #75FF72;
     box-shadow: none;
+
 }
 #email__error{
     color: red;
     font-size: 14px;
-    display: none;
+    width: 25%;
+    /*display: none;*/
+    border: 3px solid black;
+}
+
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 767px) {
+
 }

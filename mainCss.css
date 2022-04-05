@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nunito:wght@300&family=Oooh+Baby&family=Questrial&family=Raleway:wght@300&family=Red+Hat+Mono:wght@600&family=Yuji+Boku&display=swap');
+
+* {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+/*    background-color: gray;*/
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100%;
+    line-height: 1;
+}
+
+@media (max-width: 1200px) {
+    .container{
+        max-width: 970px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        max-width: 750px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    .container{
+        min-width: 320px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px 0 15px;
+    }
+}

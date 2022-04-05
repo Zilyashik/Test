@@ -1,13 +1,13 @@
-
 .image-slider{
     padding: 50px 0 70px 0;
-
+    border: 3px solid white;
 }
-
 .image-slider__wrapper{
     max-width: 100%;
+    border: 3px solid green;
 }
 .image-slider__image{
+    border: 3px solid blue;
 }
 .swiper-slide{
     text-align: center;
@@ -16,13 +16,15 @@
 .image-slider__image img{
     width: 100%;
     border-radius: 10px;
+    border: 3px solid yellow;
 }
-.slider__text {
+.slider__text{
     position: absolute;
     top: 47%;
     left: 5%;
     font-size: 70px;
     color: white;
+    border: 3px solid slateblue;
 }
 .swiper-arrows{
     cursor: pointer;
@@ -33,6 +35,7 @@
     justify-content: center;
     color: white;
     font-size: 70px;
+    border: 3px solid palevioletred;
 }
 .swiper-buttonN,
 .swiper-buttonP{
@@ -41,9 +44,74 @@
 .swiper-buttonN:hover,
 .swiper-buttonP:hover{
     color: #75FF72;
+    border: 3px solid gray;
 }
-@media screen and (max-width: 470px) {
-    .swiper-arrows {
-        font-size: 90%;
+
+
+@media (max-width: 1200px) {
+    .image-slider{
+        max-width: 970px;
+        display: flex;
+        align-items: center;
+    }
+    .image-slider__image{
+        display: flex;
+        align-items: center;
+    }
+    .image-slider__wrapper{
+
+    }
+    .image-slider__image img{
+        width: 100%;
+    }
+    .slider__text{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .image-slider{
+        max-width: 750px;
+        display: flex;
+        align-items: center;
+    }
+    .image-slider__image{
+        display: flex;
+        align-items: center;
+    }
+    .image-slider__wrapper{
+
+    }
+    .image-slider__image img{
+        width: 100%;
+    }
+    .slider__text{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .image-slider{
+        max-width: 320px;
+        display: flex;
+        align-items: center;
+    }
+    .image-slider__image{
+        display: flex;
+        align-items: center;
+    }
+    .image-slider__wrapper{
+        width: 290px;
+        height: 450px;
+    }
+    .image-slider__image img{
+        width: 290px;
+        height: 450px;
+    }
+    .slider__text{
+        font-size: 40px;
+    }
+    .swiper-arrows{
+        width: 320px;
     }
 }
