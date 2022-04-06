@@ -67,6 +67,7 @@ input:focus{
 
 }
 #email__error{
+    position: absolute;
     color: red;
     font-size: 14px;
     width: 25%;
@@ -80,9 +81,43 @@ input:focus{
 }
 
 @media (max-width: 992px) {
-
+    .form__title{
+        font-size: 60px;
+    }
 }
 
 @media (max-width: 767px) {
+    .form__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .form__title{
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+    .form__text{
+        width: 320px;
+        line-height: 20px;
+    }
+    .form__control{
 
+    }
+    .form__input-type{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form__input{
+        width: 290px;
+        margin: 20px 10px 10px 0;
+    }
+    .form__submit{
+        width: 154px;
+        margin: 20px 10px 10px 0;
+    }
+    #email__error{
+        position: absolute;
+        width: 75%;
+        margin: 90px;
+    }
 }
