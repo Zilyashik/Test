@@ -10,11 +10,6 @@ const swiper = new Swiper('.swiper', {
     centeredSlides: true,
     spaceBetween: 80,
     initialSlide: 1,
-/*    autoplay: {
-        delay: 5000,
-        stopOnLastSlide: false,
-        disabledInInteraction: false,
-    },*/
     breakpoints: {
         320: {
             slidesPerView: 1,
