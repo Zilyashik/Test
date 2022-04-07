@@ -96,6 +96,8 @@
     .image-slider__wrapper{
         width: 290px;
         height: 450px;
+        display: flex;
+        align-items: center;
     }
     .image-slider__image img{
         width: 290px;
